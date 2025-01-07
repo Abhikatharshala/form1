@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+    <style>
+      input {
+        padding: 5px;
+      }
+      label {
+        padding: 5px;
+      }
+      .abhi {
+      }
+      fieldset {
+        width: 40%;
+        border: solid black;
+        border-radius: 10px;
+        box-shadow: 20px;
+        margin-left: 35%;
+        margin-top: 2%;
+      }
+      h1 {
+        text-align: center;
+      }
+      form {
+        margin-left: 40pxpx;
+      }
+      button{
+       margin-left: 250px;
+       background-color: blue;
+       width: 100px;
+       height: 30px;
+       border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <form>
+        <h1><u>Pro Fitness Registration</u></h1>
+        <label for="a">Name:</label>
+        <input
+          type="text"
+          placeholder="First name"
+          name="userfirstname"
+          id="a"
+        />
+        <input
+          type="text"
+          placeholder="Last name"
+          name="userlastname"
+          id="a"
+        /><br /><br />
+        <label for="b">Email:</label>
+        <input
+          type="email"
+          placeholder="enter your email"
+          name="useremail"
+          id="b"
+        /><br /><br />
+        <label for="c">Phone Number:</label>
+        <input
+          type="number"
+          placeholder="enter your Number"
+          name="userenumber"
+          id="c"
+        /><br /><br />
+        <label for=""><b>Gender:</b></label
+        ><br /><br />
+        <input type="radio" name="gen" id="d" value="Male" />
+        <label for="d">Male</label>
+        <input type="radio" name="gen" id="e" value="femail" />
+        <label for="e">Femail</label>
+        <input type="radio" name="gen" id="f" value="Others" />
+        <label for="f">Others</label><br /><br />
+        <label for="g"><b>Joining date:</b></label
+        ><br /><br />
+        <input type="date" /><br /><br />
+        <label for="h"><b>Fav Workouts:</b></label
+        ><br /><br />
+        <label for="i">Cheast</label>
+        <input type="checkbox" name="work" id="i" value="Cheast" />
+        <label for="j">Back</label>
+        <input type="checkbox" name="work" id="j" value="Back" />
+        <label for="k">Shoulders</label>
+        <input type="checkbox" name="work" id="k" value="Shoulders" /><br />
+        <label for="l">Bicep</label>
+        <input type="checkbox" name="work" id="l" value="Bicep" />
+        <label for="m">Tricep</label>
+        <input type="checkbox" name="work" id="m" value="Tricep" />
+        <label for="n">Legs</label>
+        <input type="checkbox" name="work" id="n" value="Legs" /><br /><br />
+        <label for=""><b>Membership Plan:</b></label
+        ><br /><br />
+
+        <label for="h">Start month</label>
+        <input type="month" name="months" id="h"><br/><br/>
+
+        <label for="r">End month</label>
+        <input type="month" name="mo" id="r"><br /><br />
+        <label for="option">Select plan </label>
+
+        <select name="option" id="dropdown">
+          <option value=""></option>
+          <option value="3moths">3months</option>
+          <option value="6months">6moths</option>
+          <option value="1year">1year</option></select
+        ><br /><br />
+
+        <label for="q"><b>Upload your image:</b></label
+        ><br /><br />
+        <input type="file" name="image" id="q" />
+        <br /><br />
+        <label for="r">Instagram Url:</label>
+        <input type="url" name="url" id="r" /><br /><br />
+        <label for="y">Reset Form:</label>
+        <input type="reset" value="Reset" id="y" /><br/><br/>
+<button type="submit">Submit</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
